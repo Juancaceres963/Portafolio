@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <label for="" class="brand">
+            <a href="">Logo</a>
+        </label>
+        <ul>
+            <li><a href="#welcome-section" class="style-2">Inicio</a></li>
+            <li><a href="#projects" class="style-2">Proyectos</a></li>
+            <li><a href="" class="style-2">Contacto</a></li>
+            <li><a href="" class="style-2">enlace</a></li>
+        </ul>
+    </nav>
+    <section id = "welcome-section" class="welcome-section">
+        <h1 class="title style-1">Juan Cáceres</h1>
+        <p>Desarrollador Web</p>
+    </section>
+    <section id ="projects" class="projects">
+        <h2 id ="projects">Algunos de los proyectos mas relevantes en mi camino de aprendizaje como porgramador:</h2>
+        <div class="categorias" id="categorias">
+            <a href="#" class="activo">Todos</a>
+            <a href="#">Juegos</a>
+            <a href="#">Animaciones</a>
+            <a href="#">Herramientas</a>
+        </div>
+        <section class="grid" id ="grid">
+            <div class="item" 
+            data-categoria="herramientas" 
+            data-etiquetas="calculadora herramientas"
+            data-descripcion="1- Calculadora">
+                <div class="item-contenido">
+                    <a href="https://juancaceres963.github.io/Calculadora/" 
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/calculadora1.png" alt="">
+                        <p class="parrafo2">Calculadora</p>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animaciones" 
+            data-etiquetas="animacion enemigos"
+            data-descripcion="2- Enemigos">
+                <div class="item-contenido">
+                    <a href="https://juancaceres963.github.io/Enemies-Animation/" 
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/EnemiesAnimation.png"></a>
+                        <p class="parrafo2">3 diferentes tipos de enemigos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="juegos" 
+            data-etiquetas="juego juego-2D"
+            data-descripcion="3- Muevete y evita a los enemigos">
+                <div class="item-contenido zoom">
+                    <a title="Juego-Dog" href="https://juancaceres963.github.io/Game-2D-JS/" 
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/GameDog.png" alt="Juego-Dog">
+                        <p class="parrafo2">Corre dog, corre!!</p>
+                    </a>
+                    </div>                    
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animaciones" 
+            data-etiquetas="animaciones animacion"
+            data-descripcion="4- Animacion de licuadora">
+                <div class="item-contenido zoom">
+                    <a title="licuadora" href="https://juancaceres963.github.io/Licuadora/"
+                    target="_blank">  
+                    <div class="zoom">                      
+                        <img src="Imagenes/LicuadoraAnimation.png" alt="Licuadora">
+                        <p class="parrafo2">ON - OFF licuadora</p>
+                    </a>              
+                </div>      
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="juegos" 
+            data-etiquetas="juegos juego mini-juegos"
+            data-descripcion="5- Mini juego. Elimina a los cuervos">
+                <div class="item-contenido zoom">
+                    <a href="https://juancaceres963.github.io/MiniGame-Cuervos/"
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/GameCuervos.png" alt=""></a>
+                        <p class="parrafo2">El ataque de los cuervos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animaciones" 
+            data-etiquetas="animacion animaciones"
+            data-descripcion="6- Animacion de Dog">
+                <div class="item-contenido zoom">
+                    <a href="https://juancaceres963.github.io/Dog-Player/"
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/PlayerAnimation.png" alt=""></a>
+                        <p class="parrafo2">10 Animaciones Player</p>
+                </div>
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animaciones" 
+            data-etiquetas="animacion animaciones"
+            data-descripcion="7- Animacion de explosion con sonido">
+                <div class="item-contenido zoom">
+                    <a href="https://juancaceres963.github.io/Collision-Animate/"
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/CollisionAnimation.png" alt=""></a>
+                        <p class="parrafo2">Boom en un click!</p>
+                </div>
+                </div>
+            </div>
+            <div class="item" 
+            data-categoria="animaciones" 
+            data-etiquetas="animacion enemigos"
+            data-descripcion="2- Enemigos">
+                <div class="item-contenido zoom">
+                    <a href="https://juancaceres963.github.io/NPC-movement/"
+                    target="_blank">
+                    <div class="zoom">
+                        <img src="Imagenes/EnemiesAnimation2.png" alt="Enemigos-Voladores"></a>
+                        <p class="parrafo2">Enemigos voladores</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
